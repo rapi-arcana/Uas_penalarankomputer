@@ -1,0 +1,130 @@
+{
+  "metadata": {
+    "total_queries": 10,
+    "created_at": "2025-06-26T07:08:28.698310",
+    "description": "Test queries untuk evaluasi sistem retrieval kasus hukum",
+    "version": "fixed_enhanced"
+  },
+  "queries": [
+    {
+      "query_id": "Q001",
+      "query_text": "perdagangan orang lintas negara",
+      "description": "Kasus perdagangan orang antar negara",
+      "ground_truth": [
+        "case_2021_TK1_Putusan_PT_BANTEN_Nomor_108_PID_SUS_2021_PT_BTN_Tanggal_18_Oktober_2021__Pembanding_Penuntut_Umum___AGUSTRI_HARTONO__SH__MHTerbanding_Terdakwa___TOFIK_TRIYATNO_Bin_TASMIARJO_ALM",
+        "case_2021_TK1_Putusan_PT_KUPANG_Nomor_82_PID_2021_PT_KPG_Tanggal_30_Juni_2021__Pembanding_Terbanding_Terdakwa_II___YOPPI_NALLETerbanding_Pembanding_Penuntut_Umum___CHRISTOFEL_H__MALLAKA__S_HTerbaSEMUEL",
+        "case_2025_TK1_Putusan_PA_LAMONGAN_Nomor_1436_Pdt_G_2025_PA_Lmg_Tanggal_25_Juni_2025__Penggugat_melawan_Tergugat",
+        "case_2021_TK1_Putusan_PN_MAKALE_Nomor_93_Pid_Sus_2021_PN_Mak_Tanggal_15_Nopember_2021__Penuntut_Umum_MARGARETHA_H__PATURU__S_H_Terdakwa_WIWIN_ALIAS_VALEN"
+      ],
+      "num_ground_truth": 4
+    },
+    {
+      "query_id": "Q002",
+      "query_text": "eksploitasi tenaga kerja wanita",
+      "description": "Eksploitasi buruh perempuan dalam TPPO",
+      "ground_truth": [
+        "case_2025_TK1_Putusan_PA_Sei_Rampah_Nomor_648_Pdt_G_2025_PA_Srh_Tanggal_24_Juni_2025__Penggugat_melawan_Tergugat",
+        "case_2021_TK1_Putusan_PN_AMURANG_Nomor_5_Pid_Sus_2021_PN_Amr_Tanggal_22_April_2021__Penuntut_Umum_M__REZA_PAHLEPI__SHTerdakwa_VICKY_FERNANDO_BAHIHI_alias_VIKI",
+        "case_2021_TK1_Putusan_PN_PELAIHARI_Nomor_179_Pid_Sus_2021_PN_Pli_Tanggal_16_Desember_2021__Penuntut_Umum_ANDI_HAMZAH_KUSUMAATMAJA__S_HTerdakwa_M__NOOR_Als_NUNUI_Bin_KHAIRI",
+        "case_2025_TK1_Putusan_PA_Ngamprah_Nomor_1205_Pdt_G_2025_PA_Nph_Tanggal_25_Juni_2025__Penggugat_melawan_Tergugat"
+      ],
+      "num_ground_truth": 4
+    },
+    {
+      "query_id": "Q003",
+      "query_text": "anak dijual untuk prostitusi",
+      "description": "Eksploitasi seksual anak dalam perdagangan orang",
+      "ground_truth": [
+        "case_2021_TK1_Putusan_PN_BENGKULU_Nomor_87_Pid_Sus_2021_PN_Bgl_Tanggal_4_Mei_2021__Penuntut_Umum_J_HUTAGAOL_SH_MHTerdakwa_HIKMAT_DEKI_Als_DEKI_Als_MAMI_SHISI_Bin_WAHIDIN",
+        "case_2021_TK1_Putusan_PT_MATARAM_Nomor_12_PID_SUS_2021_PT_MTR_Tanggal_16_Februari_2021__Pembanding_Penuntut_Umum_I___SAHDI_SH_Terbanding_Terdakwa___H_HUSNUL_ANSORI_ALIAS_H_ANSORI",
+        "case_2021_TK1_Putusan_PN_PALOPO_Nomor_114_Pid_Sus_2021_PN_Plp_Tanggal_12_Oktober_2021__Penuntut_Umum_1_YANUAR_FIHAWIANO_SH2_AHMAD_SULHAN_S_H3_Erlysa_Said__S_H_Terdakwa_MELFI_INDIRIATI_PUTRI_Als__S_BATO",
+        "case_2021_TK1_Putusan_PT_KUPANG_Nomor_77_PID_2021_PT_KPG_Tanggal_30_Juni_2021__Pembanding_Terdakwa_I___YOPPI_NALLETerbanding_Penuntut_Umum___CHRISTOFEL_H__MALLAKA__S_H"
+      ],
+      "num_ground_truth": 4
+    },
+    {
+      "query_id": "Q004",
+      "query_text": "pemaksaan kerja paksa perdagangan orang",
+      "description": "Kasus kerja paksa dalam TPPO",
+      "ground_truth": [
+        "case_2021_TK1_Putusan_PN_SAMBAS_Nomor_22_Pid_Sus_2021_PN_Sbs_Tanggal_22_Maret_2021__Penuntut_Umum_1_Muhammad_Nur_Faisal_Wijaya__S_H_2_I_in_Lindayani__S_H___M_H_Terdakwa_RIKKY_OKTADO_Als_RIKI_Bin_N__Alm",
+        "case_2021_TK1_Putusan_PN_INDRAMAYU_Nomor_213_Pid_Sus_2021_PN_Idm_Tanggal_21_Oktober_2021__Penuntut_Umum_JIHANTO_NUR_RACHMAN__SHTerdakwa_1_ULFIYATI_Alias_ULFI_Binti_SUTIMAN2_MAHFUDZ_SIDDIQ_Alias_M_DAKIM",
+        "case_2025_TK1_Putusan_PA_Sei_Rampah_Nomor_655_Pdt_G_2025_PA_Srh_Tanggal_24_Juni_2025__Penggugat_melawan_Tergugat",
+        "case_2021_TK1_Putusan_PN_SANGGAU_Nomor_75_Pid_Sus_2021_PN_Sag_Tanggal_22_April_2021__Penuntut_Umum_MIFA_AL_FAHMI__S_H_Terdakwa_BAKRI_Bin_CICUK_Alm"
+      ],
+      "num_ground_truth": 4
+    },
+    {
+      "query_id": "Q005",
+      "query_text": "perekrutan dan pengangkutan korban perdagangan manusia",
+      "description": "Proses perekrutan dan transportasi korban TPPO",
+      "ground_truth": [
+        "case_2021_TK1_Putusan_PN_MAKALE_Nomor_92_Pid_Sus_2021_PN_Mak_Tanggal_15_Nopember_2021__Penuntut_Umum_MARGARETHA_H__PATURU__S_H_Terdakwa_SRI_SUNARTI_alias_MAMI",
+        "case_2021_TK1_Putusan_PN_Ngabang_Nomor_64_Pid_Sus_2021_PN_Nba_Tanggal_30_Agustus_2021__Penuntut_Umum_Pewira_Saputra_SHTerdakwa_Susanti_Alias_Aling_Anak_Dari_Siau_Ket_Loy",
+        "case_2021_TK1_Putusan_PN_TENGGARONG_Nomor_142_Pid_Sus_2021_PN_Trg_Tanggal_4_Mei_2021__Penuntut_Umum_FITRI_IRA_P__SH_Terdakwa_RANI_Als_RANI_RAHAYU_Alias_DIFA_Binti_IPAR",
+        "case_2021_TK1_Putusan_PT_MANADO_Nomor_4_PID_2021_PT_MND_Tanggal_10_Februari_2021__Identitas_Pihak_Tidak_Dipublikasi"
+      ],
+      "num_ground_truth": 4
+    },
+    {
+      "query_id": "Q006",
+      "query_text": "penampungan dan pemindahan korban ke luar negeri",
+      "description": "Modus pemindahan korban TPPO lintas wilayah",
+      "ground_truth": [
+        "case_2025_TK1_Putusan_PA_Ngamprah_Nomor_1378_Pdt_G_2025_PA_Nph_Tanggal_25_Juni_2025__Penggugat_melawan_Tergugat",
+        "case_2025_TK1_Putusan_PA_PONOROGO_Nomor_188_Pdt_P_2025_PA_Po_Tanggal_25_Juni_2025__Pemohon_melawan_Termohon",
+        "case_2021_TK1_Putusan_PN_SUBANG_Nomor_40_Pid_Sus_2021_PN_SNG_Tanggal_17_Maret_2021__Penuntut_Umum_AZAM_AKHMAD_AKHSYA__S_H_Terdakwa_RIZAL_FIKRI_NURROHIMUDIN",
+        "case_2021_TK1_Putusan_PN_INDRAMAYU_Nomor_215_Pid_Sus_2021_PN_Idm_Tanggal_21_Oktober_2021__Penuntut_Umum_1_M__ICHSAN__S_H___M_H_2_TISNA_P__WIJAYA__SHTerdakwa_1_ANDI_SOPANDI_alias_ANDI_BIN_UUM_2_DAUSTADI"
+      ],
+      "num_ground_truth": 4
+    },
+    {
+      "query_id": "Q007",
+      "query_text": "penipuan dan kekerasan dalam tindak pidana perdagangan orang",
+      "description": "Modus penipuan dan kekerasan pada korban",
+      "ground_truth": [
+        "case_2021_TK1_Putusan_PT_KUPANG_Nomor_82_PID_2021_PT_KPG_Tanggal_30_Juni_2021__Pembanding_Terbanding_Terdakwa_II___YOPPI_NALLETerbanding_Pembanding_Penuntut_Umum___CHRISTOFEL_H__MALLAKA__S_HTerbaSEMUEL",
+        "case_2025_TK1_Putusan_PA_LAMONGAN_Nomor_1436_Pdt_G_2025_PA_Lmg_Tanggal_25_Juni_2025__Penggugat_melawan_Tergugat",
+        "case_2021_TK1_Putusan_PN_MAKALE_Nomor_93_Pid_Sus_2021_PN_Mak_Tanggal_15_Nopember_2021__Penuntut_Umum_MARGARETHA_H__PATURU__S_H_Terdakwa_WIWIN_ALIAS_VALEN",
+        "case_2021_TK1_Putusan_PN_JAKARTA_UTARA_Nomor_596_Pid_Sus_2021_PN_Jkt_Utr_Tanggal_16_Agustus_2021__Penuntut_Umum_DYOFA_YUDHISTIRA__SHTerdakwa_ALI_NURUDIN_ALIAS_ALI_"
+      ],
+      "num_ground_truth": 4
+    },
+    {
+      "query_id": "Q008",
+      "query_text": "eksploitasi anak untuk tujuan pornografi",
+      "description": "TPPO yang melibatkan pornografi anak",
+      "ground_truth": [
+        "case_2021_TK1_Putusan_PN_AMURANG_Nomor_5_Pid_Sus_2021_PN_Amr_Tanggal_22_April_2021__Penuntut_Umum_M__REZA_PAHLEPI__SHTerdakwa_VICKY_FERNANDO_BAHIHI_alias_VIKI",
+        "case_2021_TK1_Putusan_PN_PELAIHARI_Nomor_179_Pid_Sus_2021_PN_Pli_Tanggal_16_Desember_2021__Penuntut_Umum_ANDI_HAMZAH_KUSUMAATMAJA__S_HTerdakwa_M__NOOR_Als_NUNUI_Bin_KHAIRI",
+        "case_2025_TK1_Putusan_PA_Ngamprah_Nomor_1205_Pdt_G_2025_PA_Nph_Tanggal_25_Juni_2025__Penggugat_melawan_Tergugat",
+        "case_2025_TK1_Putusan_PA_PONOROGO_Nomor_746_Pdt_G_2025_PA_Po_Tanggal_25_Juni_2025__Penggugat_melawan_Tergugat"
+      ],
+      "num_ground_truth": 4
+    },
+    {
+      "query_id": "Q009",
+      "query_text": "perdagangan orang melalui agen tenaga kerja ilegal",
+      "description": "Perdagangan manusia melalui agen tidak resmi",
+      "ground_truth": [
+        "case_2021_TK1_Putusan_PT_MATARAM_Nomor_12_PID_SUS_2021_PT_MTR_Tanggal_16_Februari_2021__Pembanding_Penuntut_Umum_I___SAHDI_SH_Terbanding_Terdakwa___H_HUSNUL_ANSORI_ALIAS_H_ANSORI",
+        "case_2021_TK1_Putusan_PN_PALOPO_Nomor_114_Pid_Sus_2021_PN_Plp_Tanggal_12_Oktober_2021__Penuntut_Umum_1_YANUAR_FIHAWIANO_SH2_AHMAD_SULHAN_S_H3_Erlysa_Said__S_H_Terdakwa_MELFI_INDIRIATI_PUTRI_Als__S_BATO",
+        "case_2021_TK1_Putusan_PT_KUPANG_Nomor_77_PID_2021_PT_KPG_Tanggal_30_Juni_2021__Pembanding_Terdakwa_I___YOPPI_NALLETerbanding_Penuntut_Umum___CHRISTOFEL_H__MALLAKA__S_H",
+        "case_2021_TK1_Putusan_PN_ENDE_Nomor_11_Pid_Sus_2021_PN_End_Tanggal_19_April_2021__Penuntut_Umum_1_OKKY_PRASETYO_AJIE2_TERESIA_WEKO__SHTerdakwa_STEFANUS_KUASA_Alias_EFAN"
+      ],
+      "num_ground_truth": 4
+    },
+    {
+      "query_id": "Q010",
+      "query_text": "pemalsuan dokumen dalam tindak pidana perdagangan orang",
+      "description": "Penggunaan dokumen palsu dalam kasus TPPO",
+      "ground_truth": [
+        "case_2021_TK1_Putusan_PN_INDRAMAYU_Nomor_213_Pid_Sus_2021_PN_Idm_Tanggal_21_Oktober_2021__Penuntut_Umum_JIHANTO_NUR_RACHMAN__SHTerdakwa_1_ULFIYATI_Alias_ULFI_Binti_SUTIMAN2_MAHFUDZ_SIDDIQ_Alias_M_DAKIM",
+        "case_2025_TK1_Putusan_PA_Sei_Rampah_Nomor_655_Pdt_G_2025_PA_Srh_Tanggal_24_Juni_2025__Penggugat_melawan_Tergugat",
+        "case_2021_TK1_Putusan_PN_SANGGAU_Nomor_75_Pid_Sus_2021_PN_Sag_Tanggal_22_April_2021__Penuntut_Umum_MIFA_AL_FAHMI__S_H_Terdakwa_BAKRI_Bin_CICUK_Alm",
+        "case_2021_TK1_Putusan_PT_MATARAM_Nomor_140_PID_SUS_2021_PT_MTR_Tanggal_9_Desember_2021__Pembanding_Penuntut_Umum_I___HENDRO_S_I_B__SH_Terbanding_Terdakwa___BQ_DIAN_CINDRAWATI_Alias_DIAN"
+      ],
+      "num_ground_truth": 4
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+Model,K,Queries_Evaluated,Avg_Precision,Avg_Recall,Avg_F1,Avg_Accuracy,Std_Precision,Std_Recall,Std_F1,Timestamp,Query_ID,Query_Text,Precision,Recall,F1,Accuracy,TP,FP,FN,Retrieved_Count,Relevant_Count
+tfidf,10,10.0,0.04,0.1,0.05714285714285715,0.04,0.048989794855663564,0.1224744871391589,0.06998542122237653,2025-06-26T07:43:07.118057,,,,,,,,,,,
+svm,10,10.0,0.04,0.1,0.05714285714285715,0.04,0.048989794855663564,0.1224744871391589,0.06998542122237653,2025-06-26T07:43:07.118069,,,,,,,,,,,
+tfidf,10,,,,,,,,,2025-06-26T07:43:07.118076,Q001,perdagangan orang lintas negara,0.0,0.0,0.0,0.0,0.0,10.0,4.0,10.0,4.0
+tfidf,10,,,,,,,,,2025-06-26T07:43:07.118083,Q002,eksploitasi tenaga kerja wanita,0.0,0.0,0.0,0.0,0.0,0.0,4.0,0.0,4.0
+tfidf,10,,,,,,,,,2025-06-26T07:43:07.118088,Q003,anak dijual untuk prostitusi,0.0,0.0,0.0,0.0,0.0,10.0,4.0,10.0,4.0
+tfidf,10,,,,,,,,,2025-06-26T07:43:07.118093,Q004,pemaksaan kerja paksa perdagangan orang,0.1,0.25,0.14285714285714288,0.1,1.0,9.0,3.0,10.0,4.0
+tfidf,10,,,,,,,,,2025-06-26T07:43:07.118107,Q005,perekrutan dan pengangkutan korban perdagangan manusia,0.0,0.0,0.0,0.0,0.0,10.0,4.0,10.0,4.0
+tfidf,10,,,,,,,,,2025-06-26T07:43:07.118112,Q006,penampungan dan pemindahan korban ke luar negeri,0.1,0.25,0.14285714285714288,0.1,1.0,9.0,3.0,10.0,4.0
+tfidf,10,,,,,,,,,2025-06-26T07:43:07.118117,Q007,penipuan dan kekerasan dalam tindak pidana perdagangan orang,0.0,0.0,0.0,0.0,0.0,10.0,4.0,10.0,4.0
+tfidf,10,,,,,,,,,2025-06-26T07:43:07.118134,Q008,eksploitasi anak untuk tujuan pornografi,0.0,0.0,0.0,0.0,0.0,10.0,4.0,10.0,4.0
+tfidf,10,,,,,,,,,2025-06-26T07:43:07.118140,Q009,perdagangan orang melalui agen tenaga kerja ilegal,0.1,0.25,0.14285714285714288,0.1,1.0,9.0,3.0,10.0,4.0
+tfidf,10,,,,,,,,,2025-06-26T07:43:07.118145,Q010,pemalsuan dokumen dalam tindak pidana perdagangan orang,0.1,0.25,0.14285714285714288,0.1,1.0,9.0,3.0,10.0,4.0
+svm,10,,,,,,,,,2025-06-26T07:43:07.118150,Q001,perdagangan orang lintas negara,0.0,0.0,0.0,0.0,0.0,10.0,4.0,10.0,4.0
+svm,10,,,,,,,,,2025-06-26T07:43:07.118155,Q002,eksploitasi tenaga kerja wanita,0.0,0.0,0.0,0.0,0.0,0.0,4.0,0.0,4.0
+svm,10,,,,,,,,,2025-06-26T07:43:07.118160,Q003,anak dijual untuk prostitusi,0.0,0.0,0.0,0.0,0.0,10.0,4.0,10.0,4.0
+svm,10,,,,,,,,,2025-06-26T07:43:07.118165,Q004,pemaksaan kerja paksa perdagangan orang,0.1,0.25,0.14285714285714288,0.1,1.0,9.0,3.0,10.0,4.0
+svm,10,,,,,,,,,2025-06-26T07:43:07.118171,Q005,perekrutan dan pengangkutan korban perdagangan manusia,0.0,0.0,0.0,0.0,0.0,10.0,4.0,10.0,4.0
+svm,10,,,,,,,,,2025-06-26T07:43:07.118176,Q006,penampungan dan pemindahan korban ke luar negeri,0.1,0.25,0.14285714285714288,0.1,1.0,9.0,3.0,10.0,4.0
+svm,10,,,,,,,,,2025-06-26T07:43:07.118182,Q007,penipuan dan kekerasan dalam tindak pidana perdagangan orang,0.0,0.0,0.0,0.0,0.0,10.0,4.0,10.0,4.0
+svm,10,,,,,,,,,2025-06-26T07:43:07.118187,Q008,eksploitasi anak untuk tujuan pornografi,0.0,0.0,0.0,0.0,0.0,10.0,4.0,10.0,4.0
+svm,10,,,,,,,,,2025-06-26T07:43:07.118191,Q009,perdagangan orang melalui agen tenaga kerja ilegal,0.1,0.25,0.14285714285714288,0.1,1.0,9.0,3.0,10.0,4.0
+svm,10,,,,,,,,,2025-06-26T07:43:07.118196,Q010,pemalsuan dokumen dalam tindak pidana perdagangan orang,0.1,0.25,0.14285714285714288,0.1,1.0,9.0,3.0,10.0,4.0
